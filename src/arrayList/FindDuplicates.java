@@ -26,7 +26,10 @@ System.out.println(list.size());
 	            
 	        }
 	        arr[j++]=arr[n-1];
-	        
+	        if(list.size()==0)
+	        {
+	        	list.add(-1);
+	        }
 	        System.out.println(list);
 //	        for()
 //	        if(j==n)

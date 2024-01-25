@@ -17,21 +17,13 @@ public class ToArrayMethod {
 		arr.add(30);
 		arr.add(40);
 		arr.add(50);
-//
-//		Object []a=arr.toArray();
-//		for(Object x:arr)
-//		{
-//			System.out.println(x);
-//		}
-		
-//		Integer a[]=arr.toArray(new Integer[0]);
-//		for(Integer x: a)
-//		{
-//			System.out.println(x);
-//		}
-		
-		arr.removeIf(n->n<20);
-		System.out.println(arr);
+
+		Object []a=arr.toArray();
+		for(Object x:arr)
+		{
+			System.out.println(x);
+		}
+
 		
 	}
 
