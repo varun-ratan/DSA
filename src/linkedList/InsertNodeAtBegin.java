@@ -13,7 +13,11 @@ public class InsertNodeAtBegin {
 		n2.next=n3;
 		n3.next=n4;
 		n4.next=n5;
-		insertAtBegin(head,60);
+		ReverseSignlyList l=new ReverseSignlyList();
+		Node temp=l.reverse(head);
+		Traverse t=new Traverse();
+		t.traverse(temp);
+		//insertAtBegin(head,60);
 		
 	}
 	public static void insertAtBegin(Node head,int data)
