@@ -17,7 +17,7 @@ public class InsertNodeAtBegin {
 		Node temp=l.reverse(head);
 		Traverse t=new Traverse();
 		t.traverse(temp);
-		//insertAtBegin(head,60);
+		insertAtBegin(head,60);
 		
 	}
 	public static void insertAtBegin(Node head,int data)
