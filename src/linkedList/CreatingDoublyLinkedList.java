@@ -11,8 +11,10 @@ public class CreatingDoublyLinkedList {
 		n1.prev=head;
 		n1.next=n2;
 		n2.prev=n1;
+		InsertAtBeginInDoublyLinkedList temp=new InsertAtBeginInDoublyLinkedList();
+		DoublyNode newHead=temp.insert(head,50);
 		DoublyLinkedListTraversal t=new DoublyLinkedListTraversal();
-		t.traverse(head);
+		t.traverse(newHead);
 
 	}
 
