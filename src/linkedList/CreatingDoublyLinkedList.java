@@ -13,8 +13,10 @@ public class CreatingDoublyLinkedList {
 		n2.prev=n1;
 		InsertAtBeginInDoublyLinkedList temp=new InsertAtBeginInDoublyLinkedList();
 		DoublyNode newHead=temp.insert(head,50);
+		ReverseDoublyList reverseList=new ReverseDoublyList();
+		DoublyNode tempHead=reverseList.reverseDoublyList(head);
 		DoublyLinkedListTraversal t=new DoublyLinkedListTraversal();
-		t.traverse(newHead);
+		t.traverse(tempHead);
 
 	}
 

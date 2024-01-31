@@ -1,3 +1,4 @@
+
 package arrays;
 
 import java.util.HashMap;
@@ -11,14 +12,19 @@ public class FindDuplicateUsingHashMap {
 		HashMap<Integer,Integer> n=new HashMap<>();
 		for(int i=0;i<arr.length;i++)
 		{
-			if(n.containsKey(i))
+			if(n.containsKey(arr[i]))
 			{
 				System.out.println(arr[i]);
 			}
 			else
 			{
-				n.put(i,1);
+				n.put(arr[i],1);
 			}
+		}
+		
+		for(int i=0;i<n.size();i++)
+		{
+			System.out.print(n.get(i));
 		}
 		
 		
