@@ -9,6 +9,8 @@ public class FindDuplicates {
 		
 		
 		 int a[] = { 1,2,3,4,1,1,1,5,6,7,8,2};
+		 Arrays.stream(a).distinct().forEach(System.out::println);
+		 System.out.println("Using stream");
 	        int n = a.length;
 	 
 	        n = removeduplicates(a, n);

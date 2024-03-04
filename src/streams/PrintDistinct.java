@@ -13,7 +13,9 @@ public class PrintDistinct {
 //			.distinct()
 //			.forEach(System.out::println);
 		
-		System.out.println(arr.stream().count());		
+		System.out.println(arr.stream().count());	
+		
+		
 		
 
 	}
