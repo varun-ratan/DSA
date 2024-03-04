@@ -35,7 +35,6 @@ public class BFS {
 		a.traversal(0);
 		
 	}
-	int count=0;
 	public void traversal(int source)
 	{
 		boolean visited[]=new boolean[V];
@@ -56,13 +55,11 @@ public class BFS {
 				if(!visited[i] && arr[u][i]==1 )
 				{
 					q.add(i);
-					count++;
 					visited[i]=true;
 					
 				}
 				
 			}
 		}
-		System.out.println(count);
 	}
 }
